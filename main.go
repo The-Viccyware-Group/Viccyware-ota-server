@@ -12,9 +12,9 @@ import (
 )
 
 var (
-	LatestVersionFile = "/home/cozmo/Desktop/all_servers/Viccyware-ota-server/vicw/otas/latest"
-	DoNotAcceptFile   = "/home/cozmo/Desktop/all_servers/Viccyware-ota-server/vicw/otas/dnar"
-	FullPath          = "/home/cozmo/Desktop/all_servers/Viccyware-ota-server/vicw/otas/full"
+	LatestVersionFile = "/home/cozmo/Desktop/all_servers/Viccyware-ota-server/vicw-dev/otas/latest"
+	DoNotAcceptFile   = "/home/cozmo/Desktop/all_servers/Viccyware-ota-server/vicw-dev/otas/dnar"
+	FullPath          = "/home/cozmo/Desktop/all_servers/Viccyware-ota-server/vicw-dev/otas/full"
 )
 
 var TargetMap = []string{"dev", "oskr", "whiskey", "orange", "dvt3", "dvt2", "prod"}
