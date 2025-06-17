@@ -17,7 +17,7 @@ var (
 	FullPath          = "/home/cozmo/Desktop/all_servers/Viccyware-ota-server/vicw/otas/full"
 )
 
-var TargetMap = []string{"dev", "oskr", "whiskey", "orange", "dvt3", "dvt2"}
+var TargetMap = []string{"dev", "oskr", "whiskey", "orange", "dvt3", "dvt2", "prod"}
 
 func fileExists(path string) bool {
 	_, err := os.Stat(path)
